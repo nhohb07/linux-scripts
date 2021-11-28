@@ -24,3 +24,7 @@ code --install-extension vscodevim.vim
 code --install-extension sonarsource.sonarlint-vscode
 code --install-extension syler.sass-indented
 
+# GIT
+cp ssh-config ~/.ssh/config
+
+

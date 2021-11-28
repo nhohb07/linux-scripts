@@ -2,3 +2,4 @@ Host github-nhohb07
     Hostname github.com
     IdentityFile ~/.ssh/github-nhohb07
     IdentitiesOnly yes
+    # git remote add origin git@github-nhohb07:nhohb07/repo-name.git
