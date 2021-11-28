@@ -15,8 +15,8 @@ cp .vimrc ~/.vimrc
 # Install VSCode
 sudo cp vscode.repo /etc/yum.repos.d/vscode.repo
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo dnf update
-sudo dnf install code
+sudo yum update
+sudo yum install code
 # VSCode extensions
 code --install-extension esbenp.prettier-vscode
 code --install-extension dbaeumer.vscode-eslint
@@ -27,4 +27,8 @@ code --install-extension syler.sass-indented
 # GIT
 cp ssh-config ~/.ssh/config
 
+# Theme
+# sudo yum install gtk-murrine-engine gtk2-engines gnome-tweaks gnome-extensions-app
+git clone git@github.com:vinceliuice/Matcha-gtk-theme.git
+cd Matcha-gtk-theme && ./install.sh
 
